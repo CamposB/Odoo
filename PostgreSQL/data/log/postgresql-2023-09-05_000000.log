@@ -1,0 +1,39 @@
+2023-09-05 18:26:40.186 -03 [20392] ERROR:  could not serialize access due to concurrent update
+2023-09-05 18:26:40.186 -03 [20392] STATEMENT:  
+	            SELECT *
+	            FROM ir_cron
+	            WHERE active = true
+	              AND numbercall != 0
+	              AND (nextcall <= (now() at time zone 'UTC')
+	                OR EXISTS (
+	                    SELECT cron_id
+	                    FROM ir_cron_trigger
+	                    WHERE call_at <= (now() at time zone 'UTC')
+	                      AND cron_id = ir_cron.id
+	                )
+	              )
+	              AND id in (20)
+	            ORDER BY priority
+	            LIMIT 1 FOR NO KEY UPDATE SKIP LOCKED
+	        
+2023-09-05 20:30:35.760 -03 [26724] ERROR:  could not serialize access due to concurrent update
+2023-09-05 20:30:35.760 -03 [26724] STATEMENT:  
+	            SELECT *
+	            FROM ir_cron
+	            WHERE active = true
+	              AND numbercall != 0
+	              AND (nextcall <= (now() at time zone 'UTC')
+	                OR EXISTS (
+	                    SELECT cron_id
+	                    FROM ir_cron_trigger
+	                    WHERE call_at <= (now() at time zone 'UTC')
+	                      AND cron_id = ir_cron.id
+	                )
+	              )
+	              AND id in (19)
+	            ORDER BY priority
+	            LIMIT 1 FOR NO KEY UPDATE SKIP LOCKED
+	        
+2023-09-06 09:50:17.026 -03 [31192] ERROR:  duplicate key value violates unique constraint "res_partner_res_partner_l10n_br_cnpj_cpf_uniq"
+2023-09-06 09:50:17.026 -03 [31192] DETAIL:  Key (l10n_br_cnpj_cpf)=(39.675.759/0001-00) already exists.
+2023-09-06 09:50:17.026 -03 [31192] STATEMENT:  UPDATE "res_partner" SET "city_id"=3144,"commercial_company_name"='BONAMAISON DESIGN',"l10n_br_cnpj_cpf"='39.675.759/0001-00',"l10n_br_district"='Vila Indiana',"l10n_br_inscr_est"='130.026.870.111',"l10n_br_legal_name"='BONAMAISON DESIGN COMERCIO E SERVICOS DE MOVEIS E ACESSORIOS',"street"='Rua Castor da Silva',"street2"='36',"vat"='39.675.759/0001-00',"write_date"='2023-09-06T12:50:16.930791'::timestamp,"write_uid"=2,"zip"='05586-020' WHERE id IN (1)

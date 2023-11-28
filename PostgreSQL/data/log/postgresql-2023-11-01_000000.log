@@ -1,0 +1,13 @@
+2023-11-01 09:00:49.701 -03 [6308] LOG:  aborting any active transactions
+2023-11-01 09:00:49.705 -03 [4228] FATAL:  terminating connection due to administrator command
+2023-11-01 09:00:49.705 -03 [28960] FATAL:  terminating connection due to administrator command
+2023-11-01 09:00:49.706 -03 [36432] FATAL:  terminating connection due to administrator command
+2023-11-01 09:00:49.706 -03 [28948] FATAL:  terminating connection due to administrator command
+2023-11-01 09:00:49.707 -03 [3608] FATAL:  terminating connection due to administrator command
+2023-11-01 09:00:49.708 -03 [29660] FATAL:  terminating connection due to administrator command
+2023-11-01 09:00:49.714 -03 [8572] FATAL:  terminating connection due to administrator command
+2023-11-01 09:00:49.717 -03 [33976] FATAL:  terminating connection due to administrator command
+2023-11-01 09:00:49.718 -03 [20316] FATAL:  terminating connection due to administrator command
+2023-11-01 09:00:49.823 -03 [7232] LOG:  shutting down
+2023-11-01 09:00:49.838 -03 [28396] FATAL:  the database system is shutting down
+2023-11-01 09:00:49.851 -03 [6308] LOG:  database system is shut down

@@ -1,0 +1,20 @@
+2023-09-12 15:08:56.420 -03 [7276] LOG:  database system was shut down at 2023-09-12 15:08:54 -03
+2023-09-12 15:08:56.954 -03 [20604] LOG:  database system is ready to accept connections
+2023-09-12 15:09:00.409 -03 [26172] LOG:  could not receive data from client: unrecognized winsock error 10054
+2023-09-12 15:11:24.722 -03 [17048] LOG:  could not receive data from client: unrecognized winsock error 10054
+2023-09-12 15:12:06.944 -03 [21188] LOG:  could not receive data from client: unrecognized winsock error 10054
+2023-09-12 15:20:16.566 -03 [14076] LOG:  could not receive data from client: unrecognized winsock error 10054
+2023-09-12 15:21:27.376 -03 [33352] LOG:  could not receive data from client: unrecognized winsock error 10054
+2023-09-12 15:27:20.404 -03 [19228] LOG:  could not receive data from client: unrecognized winsock error 10054
+2023-09-12 15:40:13.812 -03 [35624] LOG:  could not receive data from client: unrecognized winsock error 10054
+2023-09-12 17:10:48.115 -03 [28868] LOG:  could not receive data from client: unrecognized winsock error 10054
+2023-09-12 17:14:59.761 -03 [28804] LOG:  could not receive data from client: unrecognized winsock error 10054
+2023-09-12 17:18:01.311 -03 [23320] LOG:  could not receive data from client: unrecognized winsock error 10054
+2023-09-12 17:19:27.404 -03 [1020] ERROR:  null value in column "numero" violates not-null constraint
+2023-09-12 17:19:27.404 -03 [1020] DETAIL:  Failing row contains (2, null, null, 11, 1, 2023-09-12 20:19:27.400773, 1, 2023-09-12 20:19:27.400773, null).
+2023-09-12 17:19:27.404 -03 [1020] STATEMENT:  INSERT INTO "arquivo_comprovante" ("id", "create_date", "create_uid", "descricao", "product_id", "write_date", "write_uid") VALUES (nextval('arquivo_comprovante_id_seq'), '2023-09-12 20:19:27.400773', 1, NULL, 11, '2023-09-12 20:19:27.400773', 1) RETURNING id
+2023-09-12 17:22:05.926 -03 [30624] LOG:  could not receive data from client: unrecognized winsock error 10054
+2023-09-12 17:22:36.045 -03 [31932] LOG:  could not receive data from client: unrecognized winsock error 10054
+2023-09-12 17:25:32.844 -03 [5140] LOG:  could not receive data from client: unrecognized winsock error 10054
+2023-09-12 17:30:00.231 -03 [1684] LOG:  could not receive data from client: unrecognized winsock error 10054
+2023-09-12 17:34:05.984 -03 [21992] LOG:  could not receive data from client: unrecognized winsock error 10054

@@ -1,0 +1,23 @@
+2023-10-19 08:41:48.140 -03 [7100] LOG:  database system was shut down at 2023-10-19 08:41:16 -03
+2023-10-19 08:41:48.160 -03 [6308] LOG:  database system is ready to accept connections
+2023-10-20 08:48:56.875 -03 [32188] ERROR:  column "departamento" contains null values
+2023-10-20 08:48:56.875 -03 [32188] STATEMENT:  ALTER TABLE "hr_expense" ALTER COLUMN "departamento" SET NOT NULL
+2023-10-20 08:49:00.128 -03 [32188] ERROR:  column "departamento" contains null values
+2023-10-20 08:49:00.128 -03 [32188] STATEMENT:  ALTER TABLE "hr_expense" ALTER COLUMN "departamento" SET NOT NULL
+2023-10-20 08:54:29.842 -03 [33444] ERROR:  null value in column "product_id" violates not-null constraint
+2023-10-20 08:54:29.842 -03 [33444] DETAIL:  Failing row contains (2, 50, t, 10, fixed, rate_and_ship, null, null, null, null, estimated, null, null, null, f, null, null, null, null, 2, 2023-10-20 11:54:29.832178, 2, 2023-10-20 11:54:29.832178, null).
+2023-10-20 08:54:29.842 -03 [33444] STATEMENT:  INSERT INTO "delivery_carrier" ("id", "active", "create_date", "create_uid", "delivery_type", "free_over", "integration_level", "invoice_policy", "name", "sequence", "write_date", "write_uid") VALUES (nextval('delivery_carrier_id_seq'), true, '2023-10-20 11:54:29.832178', 2, 'fixed', false, 'rate_and_ship', 'estimated', '50', 10, '2023-10-20 11:54:29.832178', 2) RETURNING id
+2023-10-20 09:06:57.160 -03 [30988] LOG:  could not receive data from client: unrecognized winsock error 10054
+2023-10-20 09:07:19.089 -03 [34480] ERROR:  column "departamento" contains null values
+2023-10-20 09:07:19.089 -03 [34480] STATEMENT:  ALTER TABLE "hr_expense" ALTER COLUMN "departamento" SET NOT NULL
+2023-10-20 09:07:22.323 -03 [34480] ERROR:  column "departamento" contains null values
+2023-10-20 09:07:22.323 -03 [34480] STATEMENT:  ALTER TABLE "hr_expense" ALTER COLUMN "departamento" SET NOT NULL
+2023-10-20 09:19:37.663 -03 [33796] LOG:  could not receive data from client: unrecognized winsock error 10054
+2023-10-20 09:21:14.397 -03 [29660] ERROR:  column "departamento" contains null values
+2023-10-20 09:21:14.397 -03 [29660] STATEMENT:  ALTER TABLE "hr_expense" ALTER COLUMN "departamento" SET NOT NULL
+2023-10-20 09:21:17.664 -03 [29660] ERROR:  column "departamento" contains null values
+2023-10-20 09:21:17.664 -03 [29660] STATEMENT:  ALTER TABLE "hr_expense" ALTER COLUMN "departamento" SET NOT NULL
+2023-10-20 09:23:56.153 -03 [29660] ERROR:  column "departamento" contains null values
+2023-10-20 09:23:56.153 -03 [29660] STATEMENT:  ALTER TABLE "hr_expense" ALTER COLUMN "departamento" SET NOT NULL
+2023-10-20 09:23:59.436 -03 [29660] ERROR:  column "departamento" contains null values
+2023-10-20 09:23:59.436 -03 [29660] STATEMENT:  ALTER TABLE "hr_expense" ALTER COLUMN "departamento" SET NOT NULL

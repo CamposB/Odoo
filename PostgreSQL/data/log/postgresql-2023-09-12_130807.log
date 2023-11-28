@@ -1,0 +1,41 @@
+2023-09-12 13:08:07.976 -03 [35764] LOG:  database system was shut down at 2023-09-12 13:08:06 -03
+2023-09-12 13:08:08.510 -03 [36324] LOG:  database system is ready to accept connections
+2023-09-12 13:08:11.032 -03 [23340] LOG:  could not receive data from client: unrecognized winsock error 10054
+2023-09-12 13:12:59.803 -03 [29084] LOG:  could not receive data from client: unrecognized winsock error 10054
+2023-09-12 13:14:55.108 -03 [19832] LOG:  could not receive data from client: unrecognized winsock error 10054
+2023-09-12 13:17:18.231 -03 [35980] LOG:  could not receive data from client: unrecognized winsock error 10054
+2023-09-12 14:04:31.425 -03 [37144] LOG:  could not receive data from client: unrecognized winsock error 10054
+2023-09-12 14:13:16.171 -03 [30704] LOG:  could not receive data from client: unrecognized winsock error 10054
+2023-09-12 14:20:00.734 -03 [17208] LOG:  could not receive data from client: unrecognized winsock error 10054
+2023-09-12 14:21:33.388 -03 [632] LOG:  could not receive data from client: unrecognized winsock error 10054
+2023-09-12 14:26:15.160 -03 [5548] LOG:  could not receive data from client: unrecognized winsock error 10054
+2023-09-12 14:35:26.488 -03 [36908] LOG:  could not receive data from client: unrecognized winsock error 10054
+2023-09-12 14:36:47.798 -03 [18652] LOG:  could not receive data from client: unrecognized winsock error 10054
+2023-09-12 14:36:47.799 -03 [4840] LOG:  could not receive data from client: unrecognized winsock error 10054
+2023-09-12 14:36:51.068 -03 [2240] ERROR:  could not serialize access due to concurrent update
+2023-09-12 14:36:51.068 -03 [2240] STATEMENT:  UPDATE "bus_presence" SET "last_poll"='2023-09-12 17:36:50',"last_presence"='2023-09-12 17:36:47.814960' WHERE id IN (2)
+2023-09-12 14:40:51.193 -03 [28460] LOG:  could not receive data from client: unrecognized winsock error 10054
+2023-09-12 14:43:16.316 -03 [16348] LOG:  could not receive data from client: unrecognized winsock error 10054
+2023-09-12 14:44:56.144 -03 [25908] LOG:  could not receive data from client: unrecognized winsock error 10054
+2023-09-12 14:44:56.144 -03 [37688] LOG:  could not receive data from client: unrecognized winsock error 10054
+2023-09-12 14:44:59.396 -03 [11420] ERROR:  could not serialize access due to concurrent update
+2023-09-12 14:44:59.396 -03 [11420] STATEMENT:  UPDATE "bus_presence" SET "last_poll"='2023-09-12 17:44:59',"last_presence"='2023-09-12 17:44:27.160469' WHERE id IN (2)
+2023-09-12 14:47:35.964 -03 [32692] LOG:  could not receive data from client: unrecognized winsock error 10054
+2023-09-12 14:47:35.964 -03 [19912] LOG:  could not receive data from client: unrecognized winsock error 10054
+2023-09-12 14:47:35.965 -03 [33764] LOG:  could not receive data from client: unrecognized winsock error 10054
+2023-09-12 14:52:04.242 -03 [19844] LOG:  could not receive data from client: unrecognized winsock error 10054
+2023-09-12 14:56:47.752 -03 [36324] LOG:  received fast shutdown request
+2023-09-12 14:56:47.755 -03 [36324] LOG:  aborting any active transactions
+2023-09-12 14:56:47.763 -03 [34236] FATAL:  terminating connection due to administrator command
+2023-09-12 14:56:47.764 -03 [34380] FATAL:  terminating connection due to administrator command
+2023-09-12 14:56:47.765 -03 [28020] FATAL:  terminating connection due to administrator command
+2023-09-12 14:56:47.765 -03 [37420] FATAL:  terminating connection due to administrator command
+2023-09-12 14:56:47.765 -03 [2872] FATAL:  terminating connection due to administrator command
+2023-09-12 14:56:47.765 -03 [4040] FATAL:  terminating connection due to administrator command
+2023-09-12 14:56:47.766 -03 [8496] FATAL:  terminating connection due to administrator command
+2023-09-12 14:56:47.771 -03 [640] FATAL:  terminating connection due to administrator command
+2023-09-12 14:56:47.771 -03 [37140] FATAL:  terminating connection due to administrator command
+2023-09-12 14:56:47.773 -03 [36324] LOG:  background worker "logical replication launcher" (PID 34804) exited with exit code 1
+2023-09-12 14:56:47.887 -03 [28108] LOG:  shutting down
+2023-09-12 14:56:47.900 -03 [14828] FATAL:  the database system is shutting down
+2023-09-12 14:56:47.997 -03 [36324] LOG:  database system is shut down

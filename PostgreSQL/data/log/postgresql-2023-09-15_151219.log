@@ -1,0 +1,15 @@
+2023-09-15 15:12:19.435 -03 [6992] LOG:  database system was interrupted; last known up at 2023-09-15 12:52:12 -03
+2023-09-15 15:12:24.811 -03 [6992] LOG:  database system was not properly shut down; automatic recovery in progress
+2023-09-15 15:12:24.825 -03 [6992] LOG:  redo starts at 0/5CEAE388
+2023-09-15 15:12:24.832 -03 [6992] LOG:  invalid record length at 0/5CEB0F10: wanted 24, got 0
+2023-09-15 15:12:24.833 -03 [6992] LOG:  redo done at 0/5CEB0ED8
+2023-09-15 15:12:26.133 -03 [6296] LOG:  database system is ready to accept connections
+2023-09-15 15:12:35.419 -03 [6296] LOG:  received fast shutdown request
+2023-09-15 15:12:35.421 -03 [7976] ERROR:  canceling statement due to user request
+2023-09-15 15:12:35.421 -03 [8056] ERROR:  canceling statement due to user request
+2023-09-15 15:12:35.422 -03 [6296] LOG:  aborting any active transactions
+2023-09-15 15:12:35.426 -03 [6296] LOG:  background worker "logical replication launcher" (PID 8056) exited with exit code 1
+2023-09-15 15:12:35.429 -03 [2696] FATAL:  terminating connection due to administrator command
+2023-09-15 15:12:35.429 -03 [2404] FATAL:  terminating connection due to administrator command
+2023-09-15 15:12:35.451 -03 [6880] LOG:  shutting down
+2023-09-15 15:12:35.479 -03 [6296] LOG:  database system is shut down

@@ -1,0 +1,19 @@
+2023-09-04 17:53:41.015 -03 [13668] LOG:  database system was shut down at 2023-09-04 17:53:34 -03
+2023-09-04 17:53:41.525 -03 [14964] LOG:  database system is ready to accept connections
+2023-09-04 17:54:03.296 -03 [5188] FATAL:  database "odoo" does not exist
+2023-09-04 17:54:03.423 -03 [24728] FATAL:  database "odoo" does not exist
+2023-09-04 17:54:03.738 -03 [4204] FATAL:  database "odoo" does not exist
+2023-09-04 17:58:18.075 -03 [1100] LOG:  could not receive data from client: unrecognized winsock error 10054
+2023-09-04 18:00:26.912 -03 [25788] FATAL:  database "odoo" does not exist
+2023-09-04 18:00:27.138 -03 [25820] FATAL:  database "odoo" does not exist
+2023-09-04 18:00:33.985 -03 [26012] FATAL:  database "odoo" does not exist
+2023-09-04 18:00:34.092 -03 [26044] FATAL:  database "odoo" does not exist
+2023-09-04 18:01:39.587 -03 [22752] FATAL:  database "odoo" does not exist
+2023-09-04 18:01:39.703 -03 [25680] FATAL:  database "odoo" does not exist
+2023-09-04 18:01:47.966 -03 [14964] LOG:  received fast shutdown request
+2023-09-04 18:01:47.970 -03 [14964] LOG:  aborting any active transactions
+2023-09-04 18:01:47.976 -03 [26436] FATAL:  terminating connection due to administrator command
+2023-09-04 18:01:47.976 -03 [26536] FATAL:  terminating connection due to administrator command
+2023-09-04 18:01:47.976 -03 [14964] LOG:  background worker "logical replication launcher" (PID 4612) exited with exit code 1
+2023-09-04 18:01:48.768 -03 [25064] LOG:  shutting down
+2023-09-04 18:01:48.814 -03 [14964] LOG:  database system is shut down

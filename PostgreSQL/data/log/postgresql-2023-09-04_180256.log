@@ -1,0 +1,35 @@
+2023-09-04 18:02:56.677 -03 [25444] LOG:  database system was shut down at 2023-09-04 18:02:54 -03
+2023-09-04 18:02:57.198 -03 [23688] LOG:  database system is ready to accept connections
+2023-09-04 18:03:13.506 -03 [13908] FATAL:  database "odoo" does not exist
+2023-09-04 18:03:13.668 -03 [19944] FATAL:  database "odoo" does not exist
+2023-09-04 18:07:23.799 -03 [20548] LOG:  could not receive data from client: unrecognized winsock error 10054
+2023-09-05 09:05:46.877 -03 [12192] LOG:  could not receive data from client: unrecognized winsock error 10054
+2023-09-05 09:05:46.878 -03 [30260] LOG:  could not receive data from client: unrecognized winsock error 10054
+2023-09-05 10:07:28.944 -03 [29156] ERROR:  could not serialize access due to concurrent update
+2023-09-05 10:07:28.944 -03 [29156] STATEMENT:  SELECT * FROM ir_cron FOR UPDATE NOWAIT
+2023-09-05 10:07:28.946 -03 [29156] ERROR:  current transaction is aborted, commands ignored until end of transaction block
+2023-09-05 10:07:28.946 -03 [29156] STATEMENT:  SELECT value FROM ir_translation
+	                       WHERE lang='pt_BR' AND type in ('code') AND src='Odoo is currently processing a scheduled action.
+	Module operations are not possible at this time, please try again later or contact your system administrator.' AND md5(src)=md5('Odoo is currently processing a scheduled action.
+	Module operations are not possible at this time, please try again later or contact your system administrator.')
+2023-09-05 11:28:20.626 -03 [21996] LOG:  could not receive data from client: unrecognized winsock error 10054
+2023-09-05 11:32:59.127 -03 [8460] LOG:  could not receive data from client: unrecognized winsock error 10054
+2023-09-05 11:33:50.566 -03 [5780] LOG:  could not receive data from client: unrecognized winsock error 10054
+2023-09-05 12:41:04.312 -03 [26724] ERROR:  could not serialize access due to concurrent update
+2023-09-05 12:41:04.312 -03 [26724] STATEMENT:  
+	            SELECT *
+	            FROM ir_cron
+	            WHERE active = true
+	              AND numbercall != 0
+	              AND (nextcall <= (now() at time zone 'UTC')
+	                OR EXISTS (
+	                    SELECT cron_id
+	                    FROM ir_cron_trigger
+	                    WHERE call_at <= (now() at time zone 'UTC')
+	                      AND cron_id = ir_cron.id
+	                )
+	              )
+	              AND id in (20)
+	            ORDER BY priority
+	            LIMIT 1 FOR NO KEY UPDATE SKIP LOCKED
+	        

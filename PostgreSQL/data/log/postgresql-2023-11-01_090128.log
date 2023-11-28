@@ -1,0 +1,50 @@
+2023-11-01 09:01:28.621 -03 [9444] LOG:  database system was shut down at 2023-11-01 09:00:49 -03
+2023-11-01 09:01:28.729 -03 [8200] LOG:  database system is ready to accept connections
+2023-11-01 09:41:51.332 -03 [19724] ERROR:  column sale_order_line.l10n_br_delivery_amount does not exist at character 2268
+2023-11-01 09:41:51.332 -03 [19724] STATEMENT:  SELECT "sale_order_line"."id" as "id", "sale_order_line"."order_id" as "order_id", "sale_order_line"."name" as "name", "sale_order_line"."sequence" as "sequence", "sale_order_line"."invoice_status" as "invoice_status", "sale_order_line"."price_unit" as "price_unit", "sale_order_line"."price_subtotal" as "price_subtotal", "sale_order_line"."price_tax" as "price_tax", "sale_order_line"."price_total" as "price_total", "sale_order_line"."price_reduce" as "price_reduce", "sale_order_line"."price_reduce_taxinc" as "price_reduce_taxinc", "sale_order_line"."price_reduce_taxexcl" as "price_reduce_taxexcl", "sale_order_line"."discount" as "discount", "sale_order_line"."product_id" as "product_id", "sale_order_line"."product_uom_qty" as "product_uom_qty", "sale_order_line"."product_uom" as "product_uom", "sale_order_line"."qty_delivered_method" as "qty_delivered_method", "sale_order_line"."qty_delivered" as "qty_delivered", "sale_order_line"."qty_delivered_manual" as "qty_delivered_manual", "sale_order_line"."qty_to_invoice" as "qty_to_invoice", "sale_order_line"."qty_invoiced" as "qty_invoiced", "sale_order_line"."untaxed_amount_invoiced" as "untaxed_amount_invoiced", "sale_order_line"."untaxed_amount_to_invoice" as "untaxed_amount_to_invoice", "sale_order_line"."salesman_id" as "salesman_id", "sale_order_line"."currency_id" as "currency_id", "sale_order_line"."company_id" as "company_id", "sale_order_line"."order_partner_id" as "order_partner_id", "sale_order_line"."is_expense" as "is_expense", "sale_order_line"."is_downpayment" as "is_downpayment", "sale_order_line"."state" as "state", "sale_order_line"."customer_lead" as "customer_lead", "sale_order_line"."display_type" as "display_type", "sale_order_line"."product_packaging_id" as "product_packaging_id", "sale_order_line"."product_packaging_qty" as "product_packaging_qty", "sale_order_line"."create_uid" as "create_uid", "sale_order_line"."create_date" as "create_date", "sale_order_line"."write_uid" as "write_uid", "sale_order_line"."write_date" as "write_date", "sale_order_line"."route_id" as "route_id", "sale_order_line"."is_delivery" as "is_delivery", "sale_order_line"."l10n_br_is_expense" as "l10n_br_is_expense", "sale_order_line"."l10n_br_is_insurance" as "l10n_br_is_insurance", "sale_order_line"."l10n_br_delivery_amount" as "l10n_br_delivery_amount", "sale_order_line"."l10n_br_expense_amount" as "l10n_br_expense_amount", "sale_order_line"."l10n_br_insurance_amount" as "l10n_br_insurance_amount" FROM "sale_order_line" WHERE ("sale_order_line"."company_id" IS NULL  OR ("sale_order_line"."company_id" in (1))) AND "sale_order_line".id IN (1, 2, 6)
+2023-11-01 10:15:32.548 -03 [17804] LOG:  could not receive data from client: unrecognized winsock error 10054
+2023-11-01 10:16:12.862 -03 [808] ERROR:  column "departamento" contains null values
+2023-11-01 10:16:12.862 -03 [808] STATEMENT:  ALTER TABLE "hr_expense" ALTER COLUMN "departamento" SET NOT NULL
+2023-11-01 10:17:02.556 -03 [808] ERROR:  column "departamento" contains null values
+2023-11-01 10:17:02.556 -03 [808] STATEMENT:  ALTER TABLE "hr_expense" ALTER COLUMN "departamento" SET NOT NULL
+2023-11-01 10:19:12.804 -03 [15120] LOG:  could not receive data from client: unrecognized winsock error 10054
+2023-11-01 10:19:41.048 -03 [10044] ERROR:  column "departamento" contains null values
+2023-11-01 10:19:41.048 -03 [10044] STATEMENT:  ALTER TABLE "hr_expense" ALTER COLUMN "departamento" SET NOT NULL
+2023-11-01 10:20:30.233 -03 [10044] ERROR:  column "departamento" contains null values
+2023-11-01 10:20:30.233 -03 [10044] STATEMENT:  ALTER TABLE "hr_expense" ALTER COLUMN "departamento" SET NOT NULL
+2023-11-01 10:20:57.093 -03 [28168] ERROR:  column "departamento" contains null values
+2023-11-01 10:20:57.093 -03 [28168] STATEMENT:  ALTER TABLE "hr_expense" ALTER COLUMN "departamento" SET NOT NULL
+2023-11-01 10:21:46.737 -03 [28168] ERROR:  column "departamento" contains null values
+2023-11-01 10:21:46.737 -03 [28168] STATEMENT:  ALTER TABLE "hr_expense" ALTER COLUMN "departamento" SET NOT NULL
+2023-11-01 10:24:00.795 -03 [14504] LOG:  could not receive data from client: unrecognized winsock error 10054
+2023-11-01 10:24:59.558 -03 [10520] ERROR:  column "departamento" contains null values
+2023-11-01 10:24:59.558 -03 [10520] STATEMENT:  ALTER TABLE "hr_expense" ALTER COLUMN "departamento" SET NOT NULL
+2023-11-01 10:25:46.781 -03 [10520] ERROR:  column "departamento" contains null values
+2023-11-01 10:25:46.781 -03 [10520] STATEMENT:  ALTER TABLE "hr_expense" ALTER COLUMN "departamento" SET NOT NULL
+2023-11-01 10:27:00.097 -03 [4312] LOG:  could not receive data from client: unrecognized winsock error 10054
+2023-11-01 10:27:49.084 -03 [17868] ERROR:  column "departamento" contains null values
+2023-11-01 10:27:49.084 -03 [17868] STATEMENT:  ALTER TABLE "hr_expense" ALTER COLUMN "departamento" SET NOT NULL
+2023-11-01 10:28:02.192 -03 [2800] ERROR:  canceling autovacuum task
+2023-11-01 10:28:02.192 -03 [2800] CONTEXT:  automatic vacuum of table "test.public.ir_translation"
+2023-11-01 10:28:38.931 -03 [17868] ERROR:  column "departamento" contains null values
+2023-11-01 10:28:38.931 -03 [17868] STATEMENT:  ALTER TABLE "hr_expense" ALTER COLUMN "departamento" SET NOT NULL
+2023-11-01 10:30:45.247 -03 [27056] LOG:  could not receive data from client: unrecognized winsock error 10054
+2023-11-01 10:31:02.662 -03 [25908] ERROR:  column "departamento" contains null values
+2023-11-01 10:31:02.662 -03 [25908] STATEMENT:  ALTER TABLE "hr_expense" ALTER COLUMN "departamento" SET NOT NULL
+2023-11-01 10:31:51.943 -03 [25908] ERROR:  column "departamento" contains null values
+2023-11-01 10:31:51.943 -03 [25908] STATEMENT:  ALTER TABLE "hr_expense" ALTER COLUMN "departamento" SET NOT NULL
+2023-11-01 10:34:22.263 -03 [5408] LOG:  could not receive data from client: unrecognized winsock error 10054
+2023-11-01 10:34:51.390 -03 [2580] ERROR:  column "departamento" contains null values
+2023-11-01 10:34:51.390 -03 [2580] STATEMENT:  ALTER TABLE "hr_expense" ALTER COLUMN "departamento" SET NOT NULL
+2023-11-01 10:35:01.893 -03 [14916] ERROR:  canceling autovacuum task
+2023-11-01 10:35:01.893 -03 [14916] CONTEXT:  automatic vacuum of table "test.public.ir_translation"
+2023-11-01 10:35:39.300 -03 [2580] ERROR:  column "departamento" contains null values
+2023-11-01 10:35:39.300 -03 [2580] STATEMENT:  ALTER TABLE "hr_expense" ALTER COLUMN "departamento" SET NOT NULL
+2023-11-01 10:37:40.136 -03 [984] ERROR:  new row for relation "res_currency" violates check constraint "res_currency_rounding_gt_zero"
+2023-11-01 10:37:40.136 -03 [984] DETAIL:  Failing row contains (169, BRL, R$, Brazilian real, 0.00, 6, t, before, Real, Centavos, 1, 2023-11-01 13:37:40.128535, 1, 2023-11-01 13:37:40.128535).
+2023-11-01 10:37:40.136 -03 [984] STATEMENT:  INSERT INTO "res_currency" ("id", "active", "create_date", "create_uid", "currency_subunit_label", "currency_unit_label", "decimal_places", "full_name", "name", "position", "rounding", "symbol", "write_date", "write_uid") VALUES (nextval('res_currency_id_seq'), true, '2023-11-01 13:37:40.128535', 1, 'Centavos', 'Real', 6, 'Brazilian real', 'BRL', 'before', '0.00', 'R$', '2023-11-01 13:37:40.128535', 1) RETURNING id
+2023-11-01 11:35:58.260 -03 [20756] LOG:  could not receive data from client: unrecognized winsock error 10054
+2023-11-01 11:36:36.139 -03 [19252] ERROR:  column "departamento" contains null values
+2023-11-01 11:36:36.139 -03 [19252] STATEMENT:  ALTER TABLE "hr_expense" ALTER COLUMN "departamento" SET NOT NULL
+2023-11-01 11:36:41.411 -03 [19252] ERROR:  column "departamento" contains null values
+2023-11-01 11:36:41.411 -03 [19252] STATEMENT:  ALTER TABLE "hr_expense" ALTER COLUMN "departamento" SET NOT NULL

@@ -1,0 +1,15 @@
+2023-10-19 08:39:45.850 -03 [6760] LOG:  database system was interrupted; last known up at 2023-10-19 08:28:17 -03
+2023-10-19 08:39:47.844 -03 [9192] FATAL:  the database system is starting up
+2023-10-19 08:39:47.992 -03 [7412] FATAL:  the database system is starting up
+2023-10-19 08:39:50.120 -03 [6760] LOG:  database system was not properly shut down; automatic recovery in progress
+2023-10-19 08:39:50.125 -03 [6760] LOG:  redo starts at 0/743EA100
+2023-10-19 08:39:50.126 -03 [6760] LOG:  invalid record length at 0/743EBEF8: wanted 24, got 0
+2023-10-19 08:39:50.127 -03 [6760] LOG:  redo done at 0/743EBEC0
+2023-10-19 08:39:50.949 -03 [6660] LOG:  database system is ready to accept connections
+2023-10-19 08:41:16.366 -03 [6660] LOG:  received fast shutdown request
+2023-10-19 08:41:16.367 -03 [9524] ERROR:  canceling statement due to user request
+2023-10-19 08:41:16.368 -03 [6660] LOG:  aborting any active transactions
+2023-10-19 08:41:16.369 -03 [9584] ERROR:  canceling statement due to user request
+2023-10-19 08:41:16.372 -03 [6660] LOG:  background worker "logical replication launcher" (PID 9584) exited with exit code 1
+2023-10-19 08:41:16.382 -03 [9428] LOG:  shutting down
+2023-10-19 08:41:16.400 -03 [6660] LOG:  database system is shut down

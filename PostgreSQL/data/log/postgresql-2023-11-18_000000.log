@@ -1,0 +1,16 @@
+2023-11-21 13:24:00.948 -03 [7788] LOG:  received fast shutdown request
+2023-11-21 13:24:00.953 -03 [7788] LOG:  aborting any active transactions
+2023-11-21 13:24:00.954 -03 [8648] ERROR:  canceling statement due to user request
+2023-11-21 13:24:00.957 -03 [34092] FATAL:  terminating connection due to administrator command
+2023-11-21 13:24:00.957 -03 [21624] FATAL:  terminating connection due to administrator command
+2023-11-21 13:24:00.959 -03 [26592] FATAL:  terminating connection due to administrator command
+2023-11-21 13:24:00.960 -03 [24296] FATAL:  terminating connection due to administrator command
+2023-11-21 13:24:00.962 -03 [11820] FATAL:  terminating connection due to administrator command
+2023-11-21 13:24:00.964 -03 [6400] FATAL:  terminating connection due to administrator command
+2023-11-21 13:24:00.966 -03 [16248] FATAL:  terminating connection due to administrator command
+2023-11-21 13:24:00.968 -03 [12260] FATAL:  terminating connection due to administrator command
+2023-11-21 13:24:00.969 -03 [7788] LOG:  background worker "logical replication launcher" (PID 8648) exited with exit code 1
+2023-11-21 13:24:00.973 -03 [31220] FATAL:  terminating connection due to administrator command
+2023-11-21 13:24:01.074 -03 [8604] LOG:  shutting down
+2023-11-21 13:24:01.090 -03 [36084] FATAL:  the database system is shutting down
+2023-11-21 13:24:01.110 -03 [7788] LOG:  database system is shut down

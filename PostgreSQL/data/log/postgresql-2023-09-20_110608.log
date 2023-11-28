@@ -1,0 +1,8 @@
+2023-09-20 11:06:09.057 -03 [6792] LOG:  database system was interrupted; last known up at 2023-09-18 08:49:34 -03
+2023-09-20 11:06:12.842 -03 [9720] FATAL:  the database system is starting up
+2023-09-20 11:06:13.015 -03 [9844] FATAL:  the database system is starting up
+2023-09-20 11:06:13.972 -03 [6792] LOG:  database system was not properly shut down; automatic recovery in progress
+2023-09-20 11:06:13.980 -03 [6792] LOG:  redo starts at 0/5CEB1280
+2023-09-20 11:06:13.981 -03 [6792] LOG:  invalid record length at 0/5CEB1368: wanted 24, got 0
+2023-09-20 11:06:13.981 -03 [6792] LOG:  redo done at 0/5CEB1330
+2023-09-20 11:06:14.830 -03 [7872] LOG:  database system is ready to accept connections

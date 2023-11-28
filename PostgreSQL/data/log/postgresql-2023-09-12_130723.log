@@ -1,0 +1,12 @@
+2023-09-12 13:07:23.231 -03 [2112] LOG:  database system was shut down at 2023-09-12 13:07:21 -03
+2023-09-12 13:07:23.731 -03 [24724] LOG:  database system is ready to accept connections
+2023-09-12 13:08:06.022 -03 [24724] LOG:  received fast shutdown request
+2023-09-12 13:08:06.027 -03 [24724] LOG:  aborting any active transactions
+2023-09-12 13:08:06.035 -03 [24724] LOG:  background worker "logical replication launcher" (PID 28132) exited with exit code 1
+2023-09-12 13:08:06.036 -03 [26428] FATAL:  terminating connection due to administrator command
+2023-09-12 13:08:06.038 -03 [33616] FATAL:  terminating connection due to administrator command
+2023-09-12 13:08:06.038 -03 [4840] FATAL:  terminating connection due to administrator command
+2023-09-12 13:08:06.038 -03 [23276] FATAL:  terminating connection due to administrator command
+2023-09-12 13:08:06.039 -03 [36848] FATAL:  terminating connection due to administrator command
+2023-09-12 13:08:06.075 -03 [36840] LOG:  shutting down
+2023-09-12 13:08:06.174 -03 [24724] LOG:  database system is shut down

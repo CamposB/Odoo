@@ -1,0 +1,25 @@
+2023-09-12 12:44:52.350 -03 [34168] LOG:  could not receive data from client: unrecognized winsock error 10054
+2023-09-12 12:45:57.141 -03 [6980] LOG:  could not receive data from client: unrecognized winsock error 10054
+2023-09-12 12:46:22.631 -03 [35480] LOG:  could not receive data from client: unrecognized winsock error 10054
+2023-09-12 12:49:28.558 -03 [27848] LOG:  could not receive data from client: unrecognized winsock error 10054
+2023-09-12 12:52:36.139 -03 [31724] LOG:  could not receive data from client: unrecognized winsock error 10054
+2023-09-12 12:53:25.995 -03 [18740] LOG:  could not receive data from client: unrecognized winsock error 10054
+2023-09-12 12:53:25.994 -03 [11556] LOG:  could not receive data from client: unrecognized winsock error 10054
+2023-09-12 12:58:26.279 -03 [20324] LOG:  could not receive data from client: unrecognized winsock error 10054
+2023-09-12 13:02:37.334 -03 [19224] LOG:  could not receive data from client: unrecognized winsock error 10054
+2023-09-12 13:04:13.779 -03 [24916] LOG:  could not receive data from client: unrecognized winsock error 10054
+2023-09-12 13:05:59.578 -03 [3244] LOG:  received fast shutdown request
+2023-09-12 13:05:59.583 -03 [3244] LOG:  aborting any active transactions
+2023-09-12 13:05:59.597 -03 [3100] FATAL:  terminating connection due to administrator command
+2023-09-12 13:05:59.602 -03 [908] FATAL:  terminating connection due to administrator command
+2023-09-12 13:05:59.603 -03 [33840] FATAL:  terminating connection due to administrator command
+2023-09-12 13:05:59.604 -03 [34200] FATAL:  terminating connection due to administrator command
+2023-09-12 13:05:59.604 -03 [35128] FATAL:  terminating connection due to administrator command
+2023-09-12 13:05:59.604 -03 [22712] FATAL:  terminating connection due to administrator command
+2023-09-12 13:05:59.609 -03 [14816] FATAL:  terminating connection due to administrator command
+2023-09-12 13:05:59.611 -03 [1236] FATAL:  terminating connection due to administrator command
+2023-09-12 13:05:59.615 -03 [37880] FATAL:  terminating connection due to administrator command
+2023-09-12 13:05:59.617 -03 [3244] LOG:  background worker "logical replication launcher" (PID 32108) exited with exit code 1
+2023-09-12 13:05:59.722 -03 [31104] LOG:  shutting down
+2023-09-12 13:05:59.732 -03 [14192] FATAL:  the database system is shutting down
+2023-09-12 13:05:59.864 -03 [3244] LOG:  database system is shut down

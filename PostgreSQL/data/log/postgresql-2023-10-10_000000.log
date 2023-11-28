@@ -1,0 +1,42 @@
+2023-10-10 15:35:54.114 -03 [7716] ERROR:  column "mes" contains null values
+2023-10-10 15:35:54.114 -03 [7716] STATEMENT:  ALTER TABLE "hr_expense_sheet" ALTER COLUMN "mes" SET NOT NULL
+2023-10-10 15:36:46.861 -03 [52160] ERROR:  column hr_expense_sheet.mes does not exist at character 944
+2023-10-10 15:36:46.861 -03 [52160] STATEMENT:  SELECT "hr_expense_sheet"."id" as "id", "hr_expense_sheet"."message_main_attachment_id" as "message_main_attachment_id", "hr_expense_sheet"."name" as "name", "hr_expense_sheet"."state" as "state", "hr_expense_sheet"."payment_state" as "payment_state", "hr_expense_sheet"."employee_id" as "employee_id", "hr_expense_sheet"."address_id" as "address_id", "hr_expense_sheet"."user_id" as "user_id", "hr_expense_sheet"."total_amount" as "total_amount", "hr_expense_sheet"."amount_residual" as "amount_residual", "hr_expense_sheet"."company_id" as "company_id", "hr_expense_sheet"."currency_id" as "currency_id", "hr_expense_sheet"."journal_id" as "journal_id", "hr_expense_sheet"."bank_journal_id" as "bank_journal_id", "hr_expense_sheet"."accounting_date" as "accounting_date", "hr_expense_sheet"."account_move_id" as "account_move_id", "hr_expense_sheet"."department_id" as "department_id", "hr_expense_sheet"."approval_date" as "approval_date", "hr_expense_sheet"."mes" as "mes", "hr_expense_sheet"."create_uid" as "create_uid", "hr_expense_sheet"."create_date" as "create_date", "hr_expense_sheet"."write_uid" as "write_uid", "hr_expense_sheet"."write_date" as "write_date" FROM "hr_expense_sheet" WHERE "hr_expense_sheet".id IN (1)
+2023-10-10 15:40:10.328 -03 [58000] LOG:  could not receive data from client: unrecognized winsock error 10054
+2023-10-10 15:40:25.158 -03 [7612] ERROR:  column "mes" contains null values
+2023-10-10 15:40:25.158 -03 [7612] STATEMENT:  ALTER TABLE "hr_expense_sheet" ALTER COLUMN "mes" SET NOT NULL
+2023-10-10 15:40:54.069 -03 [19948] LOG:  could not receive data from client: unrecognized winsock error 10054
+2023-10-10 15:41:09.608 -03 [69336] ERROR:  column "mes" contains null values
+2023-10-10 15:41:09.608 -03 [69336] STATEMENT:  ALTER TABLE "hr_expense_sheet" ALTER COLUMN "mes" SET NOT NULL
+2023-10-10 15:41:12.846 -03 [69336] ERROR:  column "mes" contains null values
+2023-10-10 15:41:12.846 -03 [69336] STATEMENT:  ALTER TABLE "hr_expense_sheet" ALTER COLUMN "mes" SET NOT NULL
+2023-10-10 15:43:29.033 -03 [27800] LOG:  could not receive data from client: unrecognized winsock error 10054
+2023-10-10 15:43:53.026 -03 [31660] ERROR:  column "mes" contains null values
+2023-10-10 15:43:53.026 -03 [31660] STATEMENT:  ALTER TABLE "hr_expense" ALTER COLUMN "mes" SET NOT NULL
+2023-10-10 15:43:55.742 -03 [31660] ERROR:  column "mes" contains null values
+2023-10-10 15:43:55.742 -03 [31660] STATEMENT:  ALTER TABLE "hr_expense" ALTER COLUMN "mes" SET NOT NULL
+2023-10-10 15:58:54.470 -03 [32352] LOG:  could not receive data from client: unrecognized winsock error 10054
+2023-10-10 15:59:12.136 -03 [67536] ERROR:  column "departamento" contains null values
+2023-10-10 15:59:12.136 -03 [67536] STATEMENT:  ALTER TABLE "hr_expense" ALTER COLUMN "departamento" SET NOT NULL
+2023-10-10 15:59:15.130 -03 [67536] ERROR:  column "departamento" contains null values
+2023-10-10 15:59:15.130 -03 [67536] STATEMENT:  ALTER TABLE "hr_expense" ALTER COLUMN "departamento" SET NOT NULL
+2023-10-10 16:02:26.792 -03 [35736] ERROR:  column "departamento" contains null values
+2023-10-10 16:02:26.792 -03 [35736] STATEMENT:  ALTER TABLE "hr_expense" ALTER COLUMN "departamento" SET NOT NULL
+2023-10-10 16:02:29.423 -03 [35736] ERROR:  column "departamento" contains null values
+2023-10-10 16:02:29.423 -03 [35736] STATEMENT:  ALTER TABLE "hr_expense" ALTER COLUMN "departamento" SET NOT NULL
+2023-10-10 16:08:26.777 -03 [68692] ERROR:  column "departamento" contains null values
+2023-10-10 16:08:26.777 -03 [68692] STATEMENT:  ALTER TABLE "hr_expense" ALTER COLUMN "departamento" SET NOT NULL
+2023-10-10 16:09:19.164 -03 [48540] ERROR:  column "departamento" contains null values
+2023-10-10 16:09:19.164 -03 [48540] STATEMENT:  ALTER TABLE "hr_expense" ALTER COLUMN "departamento" SET NOT NULL
+2023-10-10 16:09:21.915 -03 [48540] ERROR:  column "departamento" contains null values
+2023-10-10 16:09:21.915 -03 [48540] STATEMENT:  ALTER TABLE "hr_expense" ALTER COLUMN "departamento" SET NOT NULL
+2023-10-11 09:11:32.367 -03 [49624] LOG:  could not receive data from client: unrecognized winsock error 10054
+2023-10-11 09:11:48.695 -03 [48660] ERROR:  column "departamento" contains null values
+2023-10-11 09:11:48.695 -03 [48660] STATEMENT:  ALTER TABLE "hr_expense" ALTER COLUMN "departamento" SET NOT NULL
+2023-10-11 09:11:51.445 -03 [48660] ERROR:  column "departamento" contains null values
+2023-10-11 09:11:51.445 -03 [48660] STATEMENT:  ALTER TABLE "hr_expense" ALTER COLUMN "departamento" SET NOT NULL
+2023-10-11 09:12:52.673 -03 [13804] LOG:  could not receive data from client: unrecognized winsock error 10054
+2023-10-11 09:13:10.625 -03 [30428] ERROR:  column "departamento" contains null values
+2023-10-11 09:13:10.625 -03 [30428] STATEMENT:  ALTER TABLE "hr_expense" ALTER COLUMN "departamento" SET NOT NULL
+2023-10-11 09:13:13.262 -03 [30428] ERROR:  column "departamento" contains null values
+2023-10-11 09:13:13.262 -03 [30428] STATEMENT:  ALTER TABLE "hr_expense" ALTER COLUMN "departamento" SET NOT NULL

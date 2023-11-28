@@ -1,0 +1,60 @@
+2023-10-30 19:14:10.940 -03 [4228] ERROR:  could not serialize access due to concurrent update
+2023-10-30 19:14:10.940 -03 [4228] STATEMENT:  
+	            SELECT *
+	            FROM ir_cron
+	            WHERE active = true
+	              AND numbercall != 0
+	              AND (nextcall <= (now() at time zone 'UTC')
+	                OR EXISTS (
+	                    SELECT cron_id
+	                    FROM ir_cron_trigger
+	                    WHERE call_at <= (now() at time zone 'UTC')
+	                      AND cron_id = ir_cron.id
+	                )
+	              )
+	              AND id in (20)
+	            ORDER BY priority
+	            LIMIT 1 FOR NO KEY UPDATE SKIP LOCKED
+	        
+2023-10-30 19:18:11.468 -03 [28948] ERROR:  could not serialize access due to concurrent update
+2023-10-30 19:18:11.468 -03 [28948] STATEMENT:  
+	            SELECT *
+	            FROM ir_cron
+	            WHERE active = true
+	              AND numbercall != 0
+	              AND (nextcall <= (now() at time zone 'UTC')
+	                OR EXISTS (
+	                    SELECT cron_id
+	                    FROM ir_cron_trigger
+	                    WHERE call_at <= (now() at time zone 'UTC')
+	                      AND cron_id = ir_cron.id
+	                )
+	              )
+	              AND id in (20)
+	            ORDER BY priority
+	            LIMIT 1 FOR NO KEY UPDATE SKIP LOCKED
+	        
+2023-10-30 19:54:15.978 -03 [3608] ERROR:  could not serialize access due to concurrent update
+2023-10-30 19:54:15.978 -03 [3608] STATEMENT:  
+	            SELECT *
+	            FROM ir_cron
+	            WHERE active = true
+	              AND numbercall != 0
+	              AND (nextcall <= (now() at time zone 'UTC')
+	                OR EXISTS (
+	                    SELECT cron_id
+	                    FROM ir_cron_trigger
+	                    WHERE call_at <= (now() at time zone 'UTC')
+	                      AND cron_id = ir_cron.id
+	                )
+	              )
+	              AND id in (20)
+	            ORDER BY priority
+	            LIMIT 1 FOR NO KEY UPDATE SKIP LOCKED
+	        
+2023-10-31 09:51:36.083 -03 [28948] ERROR:  duplicate key value violates unique constraint "res_currency_unique_name"
+2023-10-31 09:51:36.083 -03 [28948] DETAIL:  Key (name)=(BRL) already exists.
+2023-10-31 09:51:36.083 -03 [28948] STATEMENT:  INSERT INTO "res_currency" ("id", "active", "create_date", "create_uid", "currency_subunit_label", "currency_unit_label", "full_name", "name", "position", "rounding", "symbol", "write_date", "write_uid") VALUES (nextval('res_currency_id_seq'), true, '2023-10-31 12:51:36.067652', 2, 'Centavos', 'Real', 'Brazilian real', 'BRL', 'before', '0.010000', 'R$', '2023-10-31 12:51:36.067652', 2) RETURNING id
+2023-10-31 13:24:21.447 -03 [4228] ERROR:  new row for relation "res_currency" violates check constraint "res_currency_rounding_gt_zero"
+2023-10-31 13:24:21.447 -03 [4228] DETAIL:  Failing row contains (1, EUR, €, Euro, 0.000000, 0, f, after, Euros, Cents, null, null, 2, 2023-10-31 16:24:21.433151).
+2023-10-31 13:24:21.447 -03 [4228] STATEMENT:  UPDATE "res_currency" SET "decimal_places"=0,"rounding"='0.000000',"write_date"='2023-10-31 16:24:21.433151',"write_uid"=2 WHERE id IN (1)

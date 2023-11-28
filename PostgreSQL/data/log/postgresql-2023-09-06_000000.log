@@ -1,0 +1,27 @@
+2023-09-06 15:57:25.335 -03 [29184] LOG:  could not receive data from client: unrecognized winsock error 10054
+2023-09-06 16:00:48.932 -03 [26000] LOG:  could not receive data from client: unrecognized winsock error 10054
+2023-09-06 16:00:48.934 -03 [23076] LOG:  could not receive data from client: unrecognized winsock error 10054
+2023-09-06 16:28:14.548 -03 [31692] LOG:  could not receive data from client: unrecognized winsock error 10054
+2023-09-06 16:52:47.906 -03 [14124] LOG:  could not receive data from client: unrecognized winsock error 10054
+2023-09-06 16:52:47.907 -03 [30936] LOG:  could not receive data from client: unrecognized winsock error 10054
+2023-09-06 16:53:27.081 -03 [27176] LOG:  could not receive data from client: unrecognized winsock error 10054
+2023-09-06 16:54:09.477 -03 [5068] LOG:  could not receive data from client: unrecognized winsock error 10054
+2023-09-06 16:54:09.477 -03 [26996] LOG:  could not receive data from client: unrecognized winsock error 10054
+2023-09-06 16:54:12.322 -03 [31276] ERROR:  could not serialize access due to concurrent update
+2023-09-06 16:54:12.322 -03 [31276] STATEMENT:  UPDATE "bus_presence" SET "last_poll"='2023-09-06 19:54:12',"last_presence"='2023-09-06 19:54:02.279058' WHERE id IN (2)
+2023-09-06 16:59:33.958 -03 [26760] LOG:  could not receive data from client: unrecognized winsock error 10054
+2023-09-06 17:44:59.024 -03 [23688] LOG:  received fast shutdown request
+2023-09-06 17:44:59.030 -03 [23688] LOG:  aborting any active transactions
+2023-09-06 17:44:59.044 -03 [27316] FATAL:  terminating connection due to administrator command
+2023-09-06 17:44:59.045 -03 [16684] FATAL:  terminating connection due to administrator command
+2023-09-06 17:44:59.046 -03 [27228] FATAL:  terminating connection due to administrator command
+2023-09-06 17:44:59.047 -03 [32336] FATAL:  terminating connection due to administrator command
+2023-09-06 17:44:59.047 -03 [19040] FATAL:  terminating connection due to administrator command
+2023-09-06 17:44:59.049 -03 [30400] FATAL:  terminating connection due to administrator command
+2023-09-06 17:44:59.053 -03 [27284] FATAL:  terminating connection due to administrator command
+2023-09-06 17:44:59.054 -03 [29708] FATAL:  terminating connection due to administrator command
+2023-09-06 17:44:59.049 -03 [340] FATAL:  terminating connection due to administrator command
+2023-09-06 17:44:59.057 -03 [23688] LOG:  background worker "logical replication launcher" (PID 7936) exited with exit code 1
+2023-09-06 17:44:59.172 -03 [27912] FATAL:  the database system is shutting down
+2023-09-06 17:44:59.277 -03 [10616] LOG:  shutting down
+2023-09-06 17:44:59.327 -03 [23688] LOG:  database system is shut down

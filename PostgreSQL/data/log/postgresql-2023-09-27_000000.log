@@ -1,0 +1,93 @@
+2023-09-27 16:33:37.211 -03 [27504] LOG:  could not receive data from client: unrecognized winsock error 10054
+2023-09-27 16:43:28.748 -03 [55360] LOG:  could not receive data from client: unrecognized winsock error 10054
+2023-09-27 17:06:03.529 -03 [58636] LOG:  could not receive data from client: unrecognized winsock error 10054
+2023-09-27 17:11:41.401 -03 [61204] LOG:  could not receive data from client: unrecognized winsock error 10054
+2023-09-27 17:17:31.961 -03 [45948] LOG:  could not receive data from client: unrecognized winsock error 10054
+2023-09-27 17:20:26.650 -03 [5392] LOG:  could not receive data from client: unrecognized winsock error 10054
+2023-09-27 17:21:04.348 -03 [2444] LOG:  could not receive data from client: unrecognized winsock error 10054
+2023-09-27 17:21:04.348 -03 [38504] LOG:  could not receive data from client: unrecognized winsock error 10054
+2023-09-27 17:21:04.348 -03 [62268] LOG:  could not receive data from client: unrecognized winsock error 10054
+2023-09-27 17:21:04.349 -03 [47060] LOG:  could not receive data from client: unrecognized winsock error 10054
+2023-09-27 17:21:07.753 -03 [34900] ERROR:  could not serialize access due to concurrent update
+2023-09-27 17:21:07.753 -03 [34900] STATEMENT:  UPDATE "bus_presence" SET "last_poll"='2023-09-27 20:21:07' WHERE id IN (2)
+2023-09-27 17:27:51.585 -03 [66716] LOG:  could not receive data from client: unrecognized winsock error 10054
+2023-09-27 17:27:51.586 -03 [12904] LOG:  could not receive data from client: unrecognized winsock error 10054
+2023-09-27 17:30:23.822 -03 [31952] LOG:  could not receive data from client: unrecognized winsock error 10054
+2023-09-27 20:18:41.922 -03 [10152] ERROR:  could not serialize access due to concurrent update
+2023-09-27 20:18:41.922 -03 [10152] STATEMENT:  
+	            SELECT *
+	            FROM ir_cron
+	            WHERE active = true
+	              AND numbercall != 0
+	              AND (nextcall <= (now() at time zone 'UTC')
+	                OR EXISTS (
+	                    SELECT cron_id
+	                    FROM ir_cron_trigger
+	                    WHERE call_at <= (now() at time zone 'UTC')
+	                      AND cron_id = ir_cron.id
+	                )
+	              )
+	              AND id in (20)
+	            ORDER BY priority
+	            LIMIT 1 FOR NO KEY UPDATE SKIP LOCKED
+	        
+2023-09-27 21:48:34.668 -03 [10152] ERROR:  could not serialize access due to concurrent update
+2023-09-27 21:48:34.668 -03 [10152] STATEMENT:  
+	            SELECT *
+	            FROM ir_cron
+	            WHERE active = true
+	              AND numbercall != 0
+	              AND (nextcall <= (now() at time zone 'UTC')
+	                OR EXISTS (
+	                    SELECT cron_id
+	                    FROM ir_cron_trigger
+	                    WHERE call_at <= (now() at time zone 'UTC')
+	                      AND cron_id = ir_cron.id
+	                )
+	              )
+	              AND id in (18)
+	            ORDER BY priority
+	            LIMIT 1 FOR NO KEY UPDATE SKIP LOCKED
+	        
+2023-09-27 21:48:34.893 -03 [19092] ERROR:  could not serialize access due to concurrent update
+2023-09-27 21:48:34.893 -03 [19092] STATEMENT:  
+	            SELECT *
+	            FROM ir_cron
+	            WHERE active = true
+	              AND numbercall != 0
+	              AND (nextcall <= (now() at time zone 'UTC')
+	                OR EXISTS (
+	                    SELECT cron_id
+	                    FROM ir_cron_trigger
+	                    WHERE call_at <= (now() at time zone 'UTC')
+	                      AND cron_id = ir_cron.id
+	                )
+	              )
+	              AND id in (17)
+	            ORDER BY priority
+	            LIMIT 1 FOR NO KEY UPDATE SKIP LOCKED
+	        
+2023-09-28 09:48:58.681 -03 [19092] ERROR:  could not serialize access due to concurrent update
+2023-09-28 09:48:58.681 -03 [19092] STATEMENT:  
+	            SELECT *
+	            FROM ir_cron
+	            WHERE active = true
+	              AND numbercall != 0
+	              AND (nextcall <= (now() at time zone 'UTC')
+	                OR EXISTS (
+	                    SELECT cron_id
+	                    FROM ir_cron_trigger
+	                    WHERE call_at <= (now() at time zone 'UTC')
+	                      AND cron_id = ir_cron.id
+	                )
+	              )
+	              AND id in (20)
+	            ORDER BY priority
+	            LIMIT 1 FOR NO KEY UPDATE SKIP LOCKED
+	        
+2023-09-28 09:51:10.891 -03 [42076] LOG:  could not receive data from client: unrecognized winsock error 10054
+2023-09-28 10:01:17.953 -03 [69064] LOG:  could not receive data from client: unrecognized winsock error 10054
+2023-09-28 10:09:10.995 -03 [63316] LOG:  could not receive data from client: unrecognized winsock error 10054
+2023-09-28 10:17:43.805 -03 [56816] LOG:  could not receive data from client: unrecognized winsock error 10054
+2023-09-28 10:29:30.371 -03 [59980] LOG:  could not receive data from client: unrecognized winsock error 10054
+2023-09-28 10:51:00.501 -03 [67176] LOG:  could not receive data from client: unrecognized winsock error 10054

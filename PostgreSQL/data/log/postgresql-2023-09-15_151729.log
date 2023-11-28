@@ -1,0 +1,3 @@
+2023-09-15 15:17:29.847 -03 [7136] LOG:  database system was shut down at 2023-09-15 15:16:11 -03
+2023-09-15 15:17:29.878 -03 [6156] LOG:  database system is ready to accept connections
+2023-09-18 08:39:25.155 -03 [6156] LOG:  received fast shutdown request

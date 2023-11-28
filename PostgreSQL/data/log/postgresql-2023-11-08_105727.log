@@ -1,0 +1,17 @@
+2023-11-08 10:57:27.813 -03 [8360] LOG:  database system was shut down at 2023-11-08 10:56:47 -03
+2023-11-08 10:57:27.891 -03 [7788] LOG:  database system is ready to accept connections
+2023-11-09 11:14:14.826 -03 [31876] LOG:  could not receive data from client: unrecognized winsock error 10054
+2023-11-09 11:14:55.676 -03 [23400] ERROR:  column "departamento" contains null values
+2023-11-09 11:14:55.676 -03 [23400] STATEMENT:  ALTER TABLE "hr_expense" ALTER COLUMN "departamento" SET NOT NULL
+2023-11-09 11:14:58.923 -03 [23400] ERROR:  column "departamento" contains null values
+2023-11-09 11:14:58.923 -03 [23400] STATEMENT:  ALTER TABLE "hr_expense" ALTER COLUMN "departamento" SET NOT NULL
+2023-11-09 11:19:16.300 -03 [24948] LOG:  could not receive data from client: unrecognized winsock error 10054
+2023-11-09 11:19:41.600 -03 [28320] ERROR:  column "departamento" contains null values
+2023-11-09 11:19:41.600 -03 [28320] STATEMENT:  ALTER TABLE "hr_expense" ALTER COLUMN "departamento" SET NOT NULL
+2023-11-09 11:19:44.648 -03 [28320] ERROR:  column "departamento" contains null values
+2023-11-09 11:19:44.648 -03 [28320] STATEMENT:  ALTER TABLE "hr_expense" ALTER COLUMN "departamento" SET NOT NULL
+2023-11-09 11:21:35.724 -03 [12396] LOG:  could not receive data from client: unrecognized winsock error 10054
+2023-11-09 11:21:55.426 -03 [24296] ERROR:  column "departamento" contains null values
+2023-11-09 11:21:55.426 -03 [24296] STATEMENT:  ALTER TABLE "hr_expense" ALTER COLUMN "departamento" SET NOT NULL
+2023-11-09 11:21:58.598 -03 [24296] ERROR:  column "departamento" contains null values
+2023-11-09 11:21:58.598 -03 [24296] STATEMENT:  ALTER TABLE "hr_expense" ALTER COLUMN "departamento" SET NOT NULL

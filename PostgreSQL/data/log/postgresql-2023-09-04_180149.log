@@ -1,0 +1,11 @@
+2023-09-04 18:01:49.894 -03 [23212] LOG:  database system was shut down at 2023-09-04 18:01:48 -03
+2023-09-04 18:01:50.417 -03 [5904] LOG:  database system is ready to accept connections
+2023-09-04 18:01:54.642 -03 [6580] FATAL:  database "odoo" does not exist
+2023-09-04 18:01:54.756 -03 [24616] FATAL:  database "odoo" does not exist
+2023-09-04 18:02:54.774 -03 [5904] LOG:  received fast shutdown request
+2023-09-04 18:02:54.780 -03 [5904] LOG:  aborting any active transactions
+2023-09-04 18:02:54.785 -03 [5904] LOG:  background worker "logical replication launcher" (PID 16400) exited with exit code 1
+2023-09-04 18:02:54.785 -03 [14700] FATAL:  terminating connection due to administrator command
+2023-09-04 18:02:54.785 -03 [24704] FATAL:  terminating connection due to administrator command
+2023-09-04 18:02:54.803 -03 [9964] LOG:  shutting down
+2023-09-04 18:02:54.845 -03 [5904] LOG:  database system is shut down

@@ -1,0 +1,18 @@
+2023-09-12 14:59:17.998 -03 [6060] LOG:  database system was shut down at 2023-09-12 14:59:16 -03
+2023-09-12 14:59:18.533 -03 [37556] LOG:  database system is ready to accept connections
+2023-09-12 14:59:21.148 -03 [31056] LOG:  could not receive data from client: unrecognized winsock error 10054
+2023-09-12 15:08:54.472 -03 [37556] LOG:  received fast shutdown request
+2023-09-12 15:08:54.478 -03 [37556] LOG:  aborting any active transactions
+2023-09-12 15:08:54.487 -03 [14396] FATAL:  terminating connection due to administrator command
+2023-09-12 15:08:54.487 -03 [29956] FATAL:  terminating connection due to administrator command
+2023-09-12 15:08:54.491 -03 [28588] FATAL:  terminating connection due to administrator command
+2023-09-12 15:08:54.491 -03 [8972] FATAL:  terminating connection due to administrator command
+2023-09-12 15:08:54.491 -03 [32688] FATAL:  terminating connection due to administrator command
+2023-09-12 15:08:54.493 -03 [23212] FATAL:  terminating connection due to administrator command
+2023-09-12 15:08:54.494 -03 [36196] FATAL:  terminating connection due to administrator command
+2023-09-12 15:08:54.500 -03 [30072] FATAL:  terminating connection due to administrator command
+2023-09-12 15:08:54.504 -03 [16448] FATAL:  terminating connection due to administrator command
+2023-09-12 15:08:54.504 -03 [37556] LOG:  background worker "logical replication launcher" (PID 26408) exited with exit code 1
+2023-09-12 15:08:54.613 -03 [35376] LOG:  shutting down
+2023-09-12 15:08:54.632 -03 [26660] FATAL:  the database system is shutting down
+2023-09-12 15:08:54.761 -03 [37556] LOG:  database system is shut down

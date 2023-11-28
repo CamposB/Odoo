@@ -1,0 +1,22 @@
+2023-09-06 17:45:01.001 -03 [27608] LOG:  database system was shut down at 2023-09-06 17:44:59 -03
+2023-09-06 17:45:01.517 -03 [31724] LOG:  database system is ready to accept connections
+2023-09-06 17:45:04.244 -03 [2484] LOG:  could not receive data from client: unrecognized winsock error 10054
+2023-09-07 10:01:27.177 -03 [3144] LOG:  could not receive data from client: unrecognized winsock error 10054
+2023-09-07 10:03:22.677 -03 [5228] LOG:  could not receive data from client: unrecognized winsock error 10054
+2023-09-07 10:03:35.015 -03 [32940] ERROR:  column product_product.barcode_custom does not exist at character 312
+2023-09-07 10:03:35.015 -03 [32940] STATEMENT:  SELECT "product_product"."id" as "id", "product_product"."message_main_attachment_id" as "message_main_attachment_id", "product_product"."default_code" as "default_code", "product_product"."active" as "active", "product_product"."product_tmpl_id" as "product_tmpl_id", "product_product"."barcode" as "barcode", "product_product"."barcode_custom" as "barcode_custom", "product_product"."combination_indices" as "combination_indices", "product_product"."volume" as "volume", "product_product"."weight" as "weight", "product_product"."can_image_variant_1024_be_zoomed" as "can_image_variant_1024_be_zoomed", "product_product"."create_uid" as "create_uid", "product_product"."create_date" as "create_date", "product_product"."write_uid" as "write_uid", "product_product"."write_date" as "write_date" FROM "product_product" LEFT JOIN "product_template" AS "product_product__product_tmpl_id" ON ("product_product"."product_tmpl_id" = "product_product__product_tmpl_id"."id") WHERE (("product_product__product_tmpl_id"."company_id" in (1)) OR "product_product__product_tmpl_id"."company_id" IS NULL ) AND "product_product".id IN (7)
+2023-09-07 10:09:46.936 -03 [31724] LOG:  received fast shutdown request
+2023-09-07 10:09:46.941 -03 [31724] LOG:  aborting any active transactions
+2023-09-07 10:09:46.943 -03 [32940] FATAL:  terminating connection due to administrator command
+2023-09-07 10:09:46.950 -03 [15568] FATAL:  terminating connection due to administrator command
+2023-09-07 10:09:46.953 -03 [12852] FATAL:  terminating connection due to administrator command
+2023-09-07 10:09:46.954 -03 [28936] FATAL:  terminating connection due to administrator command
+2023-09-07 10:09:46.956 -03 [30284] FATAL:  terminating connection due to administrator command
+2023-09-07 10:09:46.956 -03 [33824] FATAL:  terminating connection due to administrator command
+2023-09-07 10:09:46.957 -03 [14964] FATAL:  terminating connection due to administrator command
+2023-09-07 10:09:46.959 -03 [2604] FATAL:  terminating connection due to administrator command
+2023-09-07 10:09:46.961 -03 [31724] LOG:  background worker "logical replication launcher" (PID 6728) exited with exit code 1
+2023-09-07 10:09:46.961 -03 [20420] FATAL:  terminating connection due to administrator command
+2023-09-07 10:09:47.062 -03 [14224] LOG:  shutting down
+2023-09-07 10:09:47.076 -03 [28740] FATAL:  the database system is shutting down
+2023-09-07 10:09:47.114 -03 [31724] LOG:  database system is shut down

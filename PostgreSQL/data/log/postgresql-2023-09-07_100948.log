@@ -1,0 +1,63 @@
+2023-09-07 10:09:48.885 -03 [2428] LOG:  database system was shut down at 2023-09-07 10:09:47 -03
+2023-09-07 10:09:49.398 -03 [3244] LOG:  database system is ready to accept connections
+2023-09-07 10:10:12.302 -03 [9884] ERROR:  column product_product.barcode_custom does not exist at character 312
+2023-09-07 10:10:12.302 -03 [9884] STATEMENT:  SELECT "product_product"."id" as "id", "product_product"."message_main_attachment_id" as "message_main_attachment_id", "product_product"."default_code" as "default_code", "product_product"."active" as "active", "product_product"."product_tmpl_id" as "product_tmpl_id", "product_product"."barcode" as "barcode", "product_product"."barcode_custom" as "barcode_custom", "product_product"."combination_indices" as "combination_indices", "product_product"."volume" as "volume", "product_product"."weight" as "weight", "product_product"."can_image_variant_1024_be_zoomed" as "can_image_variant_1024_be_zoomed", "product_product"."create_uid" as "create_uid", "product_product"."create_date" as "create_date", "product_product"."write_uid" as "write_uid", "product_product"."write_date" as "write_date" FROM "product_product" LEFT JOIN "product_template" AS "product_product__product_tmpl_id" ON ("product_product"."product_tmpl_id" = "product_product__product_tmpl_id"."id") WHERE (("product_product__product_tmpl_id"."company_id" in (1)) OR "product_product__product_tmpl_id"."company_id" IS NULL ) AND "product_product".id IN (7)
+2023-09-07 10:36:17.430 -03 [34316] LOG:  could not receive data from client: unrecognized winsock error 10054
+2023-09-07 10:38:50.864 -03 [11136] LOG:  could not receive data from client: unrecognized winsock error 10054
+2023-09-07 10:40:20.744 -03 [25048] ERROR:  could not serialize access due to concurrent update
+2023-09-07 10:40:20.744 -03 [25048] STATEMENT:  UPDATE "bus_presence" SET "last_poll"='2023-09-07 13:40:20',"last_presence"='2023-09-07 13:39:33.518834' WHERE id IN (1)
+2023-09-07 10:42:00.800 -03 [29376] LOG:  could not receive data from client: unrecognized winsock error 10054
+2023-09-07 10:42:00.801 -03 [26356] LOG:  could not receive data from client: unrecognized winsock error 10054
+2023-09-07 10:43:31.596 -03 [24012] ERROR:  could not serialize access due to concurrent update
+2023-09-07 10:43:31.596 -03 [24012] STATEMENT:  UPDATE "bus_presence" SET "last_poll"='2023-09-07 13:43:31',"last_presence"='2023-09-07 13:42:32.019106' WHERE id IN (1)
+2023-09-07 10:49:22.552 -03 [32764] LOG:  could not receive data from client: unrecognized winsock error 10054
+2023-09-07 10:49:22.552 -03 [28588] LOG:  could not receive data from client: unrecognized winsock error 10054
+2023-09-07 10:49:25.815 -03 [21228] ERROR:  could not serialize access due to concurrent update
+2023-09-07 10:49:25.815 -03 [21228] STATEMENT:  UPDATE "bus_presence" SET "last_poll"='2023-09-07 13:49:25',"last_presence"='2023-09-07 13:48:46.298926' WHERE id IN (1)
+2023-09-07 10:56:20.175 -03 [1728] ERROR:  could not serialize access due to concurrent update
+2023-09-07 10:56:20.175 -03 [1728] STATEMENT:  UPDATE "bus_presence" SET "last_poll"='2023-09-07 13:56:20',"last_presence"='2023-09-07 13:55:20.888525' WHERE id IN (1)
+2023-09-07 11:19:10.239 -03 [33632] LOG:  could not receive data from client: unrecognized winsock error 10054
+2023-09-07 11:20:39.163 -03 [31300] ERROR:  could not serialize access due to concurrent update
+2023-09-07 11:20:39.163 -03 [31300] STATEMENT:  UPDATE "bus_presence" SET "last_poll"='2023-09-07 14:20:39',"last_presence"='2023-09-07 14:20:32.066984' WHERE id IN (1)
+2023-09-07 11:22:50.118 -03 [10888] LOG:  could not receive data from client: unrecognized winsock error 10054
+2023-09-07 11:25:08.958 -03 [29652] LOG:  could not receive data from client: unrecognized winsock error 10054
+2023-09-07 11:26:23.224 -03 [27028] ERROR:  canceling autovacuum task
+2023-09-07 11:26:23.224 -03 [27028] CONTEXT:  automatic vacuum of table "test.public.ir_translation"
+2023-09-07 11:26:50.319 -03 [34548] ERROR:  could not serialize access due to concurrent update
+2023-09-07 11:26:50.319 -03 [34548] STATEMENT:  UPDATE "bus_presence" SET "last_poll"='2023-09-07 14:26:50',"last_presence"='2023-09-07 14:25:51.333761' WHERE id IN (1)
+2023-09-07 11:39:23.105 -03 [10388] ERROR:  could not serialize access due to concurrent update
+2023-09-07 11:39:23.105 -03 [10388] STATEMENT:  UPDATE "bus_presence" SET "last_poll"='2023-09-07 14:39:23',"last_presence"='2023-09-07 14:38:23.091298' WHERE id IN (1)
+2023-09-07 11:41:31.682 -03 [5288] LOG:  could not receive data from client: unrecognized winsock error 10054
+2023-09-07 11:41:31.683 -03 [28272] LOG:  could not receive data from client: unrecognized winsock error 10054
+2023-09-07 11:41:35.056 -03 [33016] ERROR:  could not serialize access due to concurrent update
+2023-09-07 11:41:35.056 -03 [33016] STATEMENT:  UPDATE "bus_presence" SET "last_poll"='2023-09-07 14:41:34',"last_presence"='2023-09-07 14:39:47.745667' WHERE id IN (1)
+2023-09-07 11:54:03.503 -03 [33140] ERROR:  could not serialize access due to concurrent update
+2023-09-07 11:54:03.503 -03 [33140] STATEMENT:  UPDATE "bus_presence" SET "last_poll"='2023-09-07 14:54:03',"last_presence"='2023-09-07 14:53:04.435668' WHERE id IN (1)
+2023-09-07 12:48:20.224 -03 [32696] LOG:  could not receive data from client: unrecognized winsock error 10054
+2023-09-07 12:51:53.848 -03 [31324] LOG:  could not receive data from client: unrecognized winsock error 10054
+2023-09-07 12:58:28.418 -03 [26756] LOG:  could not receive data from client: unrecognized winsock error 10054
+2023-09-07 13:04:10.652 -03 [21684] LOG:  could not receive data from client: unrecognized winsock error 10054
+2023-09-07 13:06:41.978 -03 [32972] LOG:  could not receive data from client: unrecognized winsock error 10054
+2023-09-07 13:08:19.690 -03 [21924] ERROR:  could not serialize access due to concurrent update
+2023-09-07 13:08:19.690 -03 [21924] STATEMENT:  UPDATE "bus_presence" SET "last_poll"='2023-09-07 16:08:19',"last_presence"='2023-09-07 16:07:18.466067' WHERE id IN (1)
+2023-09-07 13:09:31.909 -03 [10612] LOG:  could not receive data from client: unrecognized winsock error 10054
+2023-09-07 13:17:49.364 -03 [23700] LOG:  could not receive data from client: unrecognized winsock error 10054
+2023-09-07 13:17:49.365 -03 [9556] LOG:  could not receive data from client: unrecognized winsock error 10054
+2023-09-07 13:19:07.461 -03 [4524] ERROR:  could not serialize access due to concurrent update
+2023-09-07 13:19:07.461 -03 [4524] STATEMENT:  UPDATE "bus_presence" SET "last_poll"='2023-09-07 16:19:07',"last_presence"='2023-09-07 16:18:07.930218' WHERE id IN (1)
+2023-09-07 13:31:26.598 -03 [18548] LOG:  could not receive data from client: unrecognized winsock error 10054
+2023-09-07 13:32:59.281 -03 [23424] ERROR:  could not serialize access due to concurrent update
+2023-09-07 13:32:59.281 -03 [23424] STATEMENT:  UPDATE "bus_presence" SET "last_poll"='2023-09-07 16:32:59',"last_presence"='2023-09-07 16:32:02.002952' WHERE id IN (1)
+2023-09-07 13:35:42.235 -03 [21524] LOG:  could not receive data from client: unrecognized winsock error 10054
+2023-09-07 14:51:42.664 -03 [28504] LOG:  could not receive data from client: unrecognized winsock error 10054
+2023-09-07 15:13:42.170 -03 [4592] LOG:  could not receive data from client: unrecognized winsock error 10054
+2023-09-07 15:16:15.380 -03 [21960] ERROR:  could not serialize access due to concurrent update
+2023-09-07 15:16:15.380 -03 [21960] STATEMENT:  UPDATE "bus_presence" SET "last_poll"='2023-09-07 18:16:15',"last_presence"='2023-09-07 18:15:15.452700' WHERE id IN (1)
+2023-09-07 15:35:03.495 -03 [4244] LOG:  could not receive data from client: unrecognized winsock error 10054
+2023-09-07 15:35:43.627 -03 [34156] LOG:  could not receive data from client: unrecognized winsock error 10054
+2023-09-07 15:36:40.274 -03 [2584] LOG:  could not receive data from client: unrecognized winsock error 10054
+2023-09-07 15:36:40.275 -03 [3324] LOG:  could not receive data from client: unrecognized winsock error 10054
+2023-09-07 15:40:22.531 -03 [11276] LOG:  could not receive data from client: unrecognized winsock error 10054
+2023-09-07 15:42:46.026 -03 [4820] LOG:  could not receive data from client: unrecognized winsock error 10054
+2023-09-07 15:43:58.676 -03 [6952] LOG:  could not receive data from client: unrecognized winsock error 10054
+2023-09-07 15:43:58.677 -03 [13620] LOG:  could not receive data from client: unrecognized winsock error 10054
